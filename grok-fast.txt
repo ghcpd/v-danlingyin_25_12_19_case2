@@ -1,0 +1,143 @@
+grok-fast：：
+
+User: prompt
+You are a senior front-end engineer.
+Your task is to create a complete UI application FROM SCRATCH based on the provided input_ui_spec.txt file.
+This task belongs to: Category: UI Case Sub-Type: Creating apps from scratch
+The tech stack MUST be:
+- React
+- TypeScript
+- TailwindCSS
+- pnpm
+Component libraries are allowed but optional.
+--------------------------------------------------------------------------------
+Your responsibilities:
+1.Understand UI requirements
+- Read input_ui_spec.txt
+- Extract:
+- Page purpose
+- Layout structure
+- Required components
+- Animations
+- Interactions
+- Theme constraints
+--------------------------------------------------------------------------------
+1.Create a full runnable application from scratch
+You MUST generate:
+- A complete React + TypeScript project
+- Using TailwindCSS for styling
+- Using pnpm as the package manager
+The project MUST be runnable by: pnpm install pnpm dev
+--------------------------------------------------------------------------------
+1.Mandatory UI features to implement
+- Christmas-themed shopping campaign page
+- Animated Christmas tree (CSS or JS animation)
+- Product promotion section
+- Call-to-action button
+- Responsive layout (mobile / tablet / desktop)
+--------------------------------------------------------------------------------
+1.Required file structure (minimum)
+You MUST generate:
+- package.json (pnpm compatible)
+- tailwind.config.js
+- postcss.config.js
+- tsconfig.json
+- index.html
+- src/main.tsx
+- src/App.tsx
+- src/components/*
+- src/pages/* (if applicable)
+- README.md
+All imports MUST be valid. No missing files.
+--------------------------------------------------------------------------------
+1.Generate 3 explicit UI test cases
+TEST CASE 1 — App bootstrap
+- Run: pnpm install
+- Run: pnpm dev Expected:
+- Dev server starts successfully
+- No runtime errors
+TEST CASE 2 — UI correctness
+- Page renders:
+- Header
+- Christmas tree animation
+- Product cards
+- CTA button Expected:
+- No console errors
+- All sections visible
+TEST CASE 3 — Responsiveness
+- Test at widths:
+- 375px (mobile)
+- 768px (tablet)
+- 1280px (desktop) Expected:
+- No overflow
+- Layout adapts correctly
+- Tailwind breakpoints used
+--------------------------------------------------------------------------------
+1.Generate a README.md
+README must include:
+- Project overview
+- Tech stack
+- How to install (pnpm)
+- How to run
+- Description of the 3 test cases
+Keep it short and actionable.
+--------------------------------------------------------------------------------
+Rules for the Model:
+- MUST create the app from scratch
+- MUST NOT assume any pre-existing code
+- MUST NOT hallucinate files not listed
+- MUST keep code minimal but complete
+- MUST ensure the app actually runs
+- MUST follow the provided UI spec strictly
+--------------------------------------------------------------------------------
+Deliverables:
+1.Full file tree
+2.Complete source code
+3.README.md
+4.3 UI test cases with expected results
+
+GitHub Copilot: Read [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/input_ui_spec.txt)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/package.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/tailwind.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/postcss.config.js)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/tsconfig.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/tsconfig.node.json)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/vite.config.ts)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/index.html)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/src/main.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/src/index.css)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/src/components)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/src/components/Header.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/src/components/Hero.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/src/components/ChristmasTree.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/src/components/ProductCard.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/src/components/ProductSection.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/src/components/Footer.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/src/App.tsx)
+
+Created [](file:///c%3A/Users/v-danlingyin/Documents/microsoft_projects_files/bugBash/1219/case2/grok-fast/README.md)
+
+Ran terminal command: pnpm install
+
+Ran terminal command: pnpm dev
+
+Made changes.
+
+Similar code found with 1 license type
