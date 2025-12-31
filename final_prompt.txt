@@ -1,0 +1,3 @@
+prompt
+You are a senior front-end engineer.
+Your task is to create a complete UI application FROM SCRATCH based on the provided input_ui_spec.txt file.
