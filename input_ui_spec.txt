@@ -1,0 +1,65 @@
+Project Type:
+Christmas Shopping Campaign Page
+
+Goal:
+Create a festive e-commerce campaign landing page with a Christmas tree animation.
+
+Page Requirements:
+
+1. Header
+- Logo text: "XMAS SHOP"
+- Navigation links:
+  - Home
+  - Deals
+  - Gifts
+
+2. Hero Section
+- Title: "Christmas Sale"
+- Subtitle: "Up to 50% off holiday gifts"
+- Primary button: "Shop Now"
+
+3. Christmas Tree Animation
+- A stylized Christmas tree in the center
+- Can be built with:
+  - CSS shapes
+  - SVG
+  - Simple divs + Tailwind
+- Animation requirement:
+  - Blinking lights OR
+  - Subtle floating / glowing effect
+
+4. Product Section
+- Display 4 product cards
+- Each card includes:
+  - Product image placeholder
+  - Product name
+  - Price
+  - "Add to Cart" button
+
+5. Footer
+- Text: "© 2025 Christmas Shop"
+- Simple layout
+
+Theme & Style Constraints:
+- Colors:
+  - Green
+  - Red
+  - White
+- Tailwind utility classes preferred
+- Clean, festive, minimal
+
+Interaction Requirements:
+- Hover effect on buttons
+- Christmas tree animation runs automatically
+
+Technical Constraints:
+- React + TypeScript
+- TailwindCSS
+- pnpm
+- No backend required
+- Client-side only
+
+Output Expectation:
+- Fully runnable app
+- Responsive design
+- No console errors
