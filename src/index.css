@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #ffffff;
+}
+
+/* small helper for subtle floating animation */
+@keyframes floaty {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+
+/* blinking lights */
+@keyframes blink {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.2; transform: scale(0.85); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* small shadow for product placeholders */
+.product-placeholder {
+  background: linear-gradient(135deg,#f3f4f6,#ffffff);
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(11,107,43,0.08), inset 0 -6px 18px rgba(185,28,28,0.02);
+}
